@@ -81,7 +81,16 @@ const people = [
 // })
 
 
-const sumBudget = people
+// const sumBudget = people.filter((p) => p.budget > 5000)
+// .map((p) => p.budget)
+// .reduce((acc, p) => acc + p, 0)
 
-console.log(sumBudget)
+// console.log(sumBudget)
 
+const string = 'Hello, How are you?'
+const reversed = string
+.split('')
+.toReversed()
+.join('')
+
+console.log(reversed)
